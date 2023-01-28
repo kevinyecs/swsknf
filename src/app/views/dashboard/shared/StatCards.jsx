@@ -29,8 +29,8 @@ const Heading = styled('h6')(({ theme }) => ({
 
 const StatCards = () => {
   const cardList = [
-    { name: 'New Leads', amount: 3050, icon: 'group' },
-    { name: 'This week Sales', amount: '$80,500', icon: 'attach_money' },
+    { name: 'Find Friends', amount: 3050, icon: 'group' },
+    { name: 'This week uploads', amount: '1337', icon: 'cloud_upload' },
     { name: 'Inventory Status', amount: '8.5% Stock Surplus', icon: 'store' },
     { name: 'Orders to deliver', amount: '305 Orders', icon: 'shopping_cart' },
   ];

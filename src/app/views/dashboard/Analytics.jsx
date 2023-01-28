@@ -51,7 +51,7 @@ const Analytics = () => {
 
           <Grid item lg={4} md={4} sm={12} xs={12}>
             <Card sx={{ px: 3, py: 2, mb: 3 }}>
-              <Title>Traffic Sources</Title>
+              <Title>Model Pallette</Title>
               <SubTitle>Last 30 days</SubTitle>
 
               <DoughnutChart

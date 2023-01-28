@@ -2,5 +2,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "prettier.printWidth": 100,
-    "prettier.singleQuote": true
+    "prettier.singleQuote": true,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#462607",
+        "titleBar.activeBackground": "#62350A",
+        "titleBar.activeForeground": "#FEFAF6"
+    }
 }

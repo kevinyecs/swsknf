@@ -1,22 +1,13 @@
 export const navigations = [
-  { name: 'Dashboard', path: '/dashboard/default', icon: 'dashboard' },
-  { label: 'PAGES', type: 'label' },
+  { name: 'Market Place', path: '/dashboard/default', icon: 'house' },
+
+  { label: 'My Stash', type: 'label' },
   {
-    name: 'Session/Auth',
-    icon: 'security',
-    children: [
-      { name: 'Sign in', iconText: 'SI', path: '/session/signin' },
-      { name: 'Sign up', iconText: 'SU', path: '/session/signup' },
-      { name: 'Forgot Password', iconText: 'FP', path: '/session/forgot-password' },
-      { name: 'Error', iconText: '404', path: '/session/404' },
-    ],
-  },
-  { label: 'Components', type: 'label' },
-  {
-    name: 'Components',
-    icon: 'favorite',
+    name: 'Models',
+    icon: 'smart_toy',
     badge: { value: '30+', color: 'secondary' },
     children: [
+      { name: 'LanguageModel ', iconText: 'AM', path: '/models/llm/turing' },
       { name: 'Auto Complete', path: '/material/autocomplete', iconText: 'A' },
       { name: 'Buttons', path: '/material/buttons', iconText: 'B' },
       { name: 'Checkbox', path: '/material/checkbox', iconText: 'C' },
@@ -34,7 +25,7 @@ export const navigations = [
     ],
   },
   {
-    name: 'Charts',
+    name: 'Trending',
     icon: 'trending_up',
     children: [{ name: 'Echarts', path: '/charts/echarts', iconText: 'E' }],
   },
@@ -43,5 +34,16 @@ export const navigations = [
     icon: 'launch',
     type: 'extLink',
     path: 'http://demos.ui-lib.com/matx-react-doc/',
+  },
+  { label: 'Manage', type: 'label' },
+  {
+    name: 'My Profile',
+    icon: 'security',
+    children: [
+      { name: 'Sign in', iconText: 'SI', path: '/session/signin' },
+      { name: 'Sign up', iconText: 'SU', path: '/session/signup' },
+      { name: 'Forgot Password', iconText: 'FP', path: '/session/forgot-password' },
+      { name: 'Error', iconText: '404', path: '/session/404' },
+    ],
   },
 ];

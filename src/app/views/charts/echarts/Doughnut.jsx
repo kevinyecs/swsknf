@@ -44,8 +44,8 @@ const DoughnutChart = ({ height, color = [] }) => {
         },
         labelLine: { normal: { show: false } },
         data: [
-          { value: 65, name: 'Google' },
-          { value: 20, name: 'Facebook' },
+          { value: 65, name: 'LLM' },
+          { value: 20, name: 'CV' },
           { value: 15, name: 'Others' },
         ],
         itemStyle: {
